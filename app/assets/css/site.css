@@ -1,12 +1,13 @@
 
-      header{height: 100px; /*border-top:5px solid #6240aa;
+      header{height: 100px; background: #dad5eb;/*border-top:5px solid #6240aa;
       background: #c0b1d9;  For browsers that do not support gradients */
 	    /* background: -webkit-linear-gradient(#c0b1d9, #785bb7); For Safari 5.1 to 6.0 */
 	    /*background: -o-linear-gradient(#c0b1d9, #785bb7);  For Opera 11.1 to 12.0 */
 	    /*background: -moz-linear-gradient(#c0b1d9, #785bb7);  For Firefox 3.6 to 15 */
 	    /* background: linear-gradient(#c0b1d9, #785bb7); Standard syntax */}
       header h1{color:#000;}
-      .navbar-default {border:0;background: transparent;box-shadow: none;}
+      .navbar {margin-bottom: 0;border-radius: 0;}
+      .navbar-default {background:#dad5eb;border:0;box-shadow: none;}
       .navbar-collapse{background: #785bb7;border-radius: 3px;}
       .navbar-default .navbar-nav li a,.navbar-default .navbar-nav li a:hover{ color:#fff;}
       .navbar-default .navbar-nav li.active a,.navbar-default .navbar-nav li.active a:hover{color:#fff;background: transparent;}
@@ -23,7 +24,6 @@
 
     /* Special class on .container surrounding .navbar, used for positioning it into place. */
     .navbar-wrapper {
-      position: absolute;
       top: 0;
       right: 0;
       left: 0;
@@ -56,7 +56,7 @@
 
     /* Carousel base class */
     .carousel {
-      height: 450px;
+      height: 300px;
      
     }
     /* Since positioning the image, we need to help out the caption */
@@ -67,7 +67,7 @@
 
     /* Declare heights because of positioning of img element */
     .carousel .item {
-      height: 450px;
+      height: 300px;
     }
 
     .carousel .carousel-inner > .item {background:#dad5eb !important;}
@@ -136,7 +136,6 @@
 
     @media (min-width: 768px) {
       /* Navbar positioning foo */
-      .navbar-wrapper {margin-top: 20px;}
       .navbar-wrapper .container {
         padding-right: 15px;
         padding-left: 15px;
@@ -166,18 +165,27 @@
 
     @media screen and (max-width:768px){
         header {height: 50px;}
-        header h1{font-size:24px;padding-left: 15px;}
+        header h1{font-size:24px;}
         /*.carousel-caption {bottom: 107px;}*/
+        .navbar{min-height: 0px;}
         .navbar-form.navbar-right div.form-group input.form-control{width:100%;}
+        .navbar-form.navbar-right div.form-group{padding-right: 15px;}
+        .navbar-collapse{
+            position: absolute;
+            z-index: 10000;
+            right: 0;
+            left: 0;
+        }
+        .nav.navbar-nav{padding-left: 15px;}
         span.glyphicon.glyphicon-search{top:30px;left:10px;}
 
-		.dropdown, .dropup {text-align: center;}
-		.open>.dropdown-menu {width: 100%;text-align: center;}
+		    .dropdown, .dropup {text-align: center;}
+		    .open>.dropdown-menu {width: 100%;text-align: center;}
 
         .carousel-indicators {bottom: 52px;}
         .footer .col-md-6{text-align: center;}
         .footer .nav.nav-pills{margin-left: 20%;}
         .footer .nav.nav-pills li a{padding: 0;}
-     }
+    }
 
 
