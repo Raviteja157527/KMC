@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,217 +20,218 @@
     <link href="assets/css/site.css" rel="stylesheet">
   </head>
   <body>
-    <div class="navbar-wrapper">
-      <header class="container-fluid">
-        <h1>Kingsfold Medical Centre</h1>
-      </header>
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#"><u>H</u>ome <span class="sr-only">(current)</span></a></li>
-              <li><a href="#"><u>D</u>octor & Staff</a></li>
-              <li><a href="#"><u>S</u>urgery Times</a></li>
-              <li><a href="#"><u>C</u>lincs</a></li>
-              <li><a href="#"><u>P</u>ractice News</a></li>
-              <li><a href="#">Contact <u>U</u>s</a></li>
-            </ul>
-            <form class="navbar-form navbar-right">
-              <div class="form-group">
-                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                <input type="text" class="form-control" placeholder="Search this site"/>
+    <div id="wrapper">
+        <div class="navbar-wrapper">
+          <header class="container-fluid">
+            <h1>Kingsfold Medical Centre</h1>
+          </header>
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
               </div>
-              <!-- <button type="submit" class="btn btn-default hidden-xs">Search</button> -->
-            </form>
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-      </nav>
-    </div>
-    
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators 
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
-        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
-        <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
-      </ol>-->
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Welcome to Kingsfold Medical Centre</h1>
-              <p>We are currently accepting new patients.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">More Information</a></p>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#"><u>H</u>ome <span class="sr-only">(current)</span></a></li>
+                  <li><a href="#"><u>D</u>octor & Staff</a></li>
+                  <li><a href="#"><u>S</u>urgery Times</a></li>
+                  <li><a href="#"><u>C</u>lincs</a></li>
+                  <li><a href="#"><u>P</u>ractice News</a></li>
+                  <li><a href="#">Contact <u>U</u>s</a></li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                  <div class="form-group">
+                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    <input type="text" class="form-control" placeholder="Search this site"/>
+                  </div>
+                  <!-- <button type="submit" class="btn btn-default hidden-xs">Search</button> -->
+                </form>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+        </div>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators 
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+            <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+            <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+          </ol>-->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Welcome to Kingsfold Medical Centre</h1>
+                  <p>We are currently accepting new patients.</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">More Information</a></p>
+                </div>
+              </div>
+            </div>
+           
+            <div class="item ">
+            
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Clinics & Services</h1>
+                  <p>We offer a range of clinics and services at the practice.</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">More Information</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+            
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Home Visits</h1>
+                  <p>We offer home visits to patients who are housebound or too ill to attend the surgery.</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">More Information</a></p>
+                </div>
+              </div>
+            </div>
+             <div class="item">
+             
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Repeat Prescriptions</h1>
+                  <p>When ordering repeat prescriptions, please allow a MINIMUM of 48 hours before collection.</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">More Information</a></p>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-       
-        <div class="item ">
-        
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Clinics & Services</h1>
-              <p>We offer a range of clinics and services at the practice.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">More Information</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-        
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Home Visits</h1>
-              <p>We offer home visits to patients who are housebound or too ill to attend the surgery.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">More Information</a></p>
-            </div>
-          </div>
-        </div>
-         <div class="item">
-         
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Repeat Prescriptions</h1>
-              <p>When ordering repeat prescriptions, please allow a MINIMUM of 48 hours before collection.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">More Information</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a> -->
-    </div>
-    <div class="container-fluid appointment">
-      <div class="row">
-        <div class="col-md-4">
-          <a href="#">
-            <div class="thumbnail">
-              Order Prescriptions Online
-            </div>
+          <!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
           </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a> -->
         </div>
-        <div class="col-md-4">
-          <a href="#">
-            <div class="thumbnail">
-              Make Appoinments Online
+        <div class="container-fluid appointment">
+          <div class="row">
+            <div class="col-md-4">
+              <a href="#">
+                <div class="thumbnail">
+                  Order Prescriptions Online
+                </div>
+              </a>
             </div>
-          </a>  
-        </div>
-        <div class="col-md-4">
-          <a href="#">
-            <div class="thumbnail">
-              Register with the practice 
+            <div class="col-md-4">
+              <a href="#">
+                <div class="thumbnail">
+                  Make Appoinments Online
+                </div>
+              </a>  
             </div>
-          </a>  
+            <div class="col-md-4">
+              <a href="#">
+                <div class="thumbnail">
+                  Register with the practice 
+                </div>
+              </a>  
+            </div>
+          </div>  
         </div>
-      </div>  
-    </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="visible-xs">
-          <div class="dropdown">
-            <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Select Information
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dLabel">
-              <a href="#" class="list-group-item">Friends & Family Test </a>
-              <a href="#" class="list-group-item">Named GP for all Patients</a>
-              <a href="#" class="list-group-item">Appointments</a>
-              <a href="#" class="list-group-item">GP2GP</a>
-              <a href="#" class="list-group-item">Telephone Advice</a>
-              <a href="#" class="list-group-item">Home Visits</a>
-              <a href="#" class="list-group-item">Antenatal Clinic</a>
-              <a href="#" class="list-group-item">Stress Counselling Clinic</a>
-              <a href="#" class="list-group-item">Practice Survey</a>
-              <a href="#" class="list-group-item">Psychiatric Nurse</a>
-              <a href="#" class="list-group-item">Physiotherapy Clinic</a>
-              <a href="#" class="list-group-item">Registering</a>
-              <a href="#" class="list-group-item">Prescriptions</a>
-              <a href="#" class="list-group-item">Emergencies</a>
-              <a href="#" class="list-group-item">Confidentiality</a>
-              <a href="#" class="list-group-item">Zero Tolerance Policy</a>
-              <a href="#" class="list-group-item">Complaints Procedure</a>
-              <a href="#" class="list-group-item">Patient Information</a>
-              <a href="#" class="list-group-item">Travel Vaccinations</a>
-            </ul>
-          </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="visible-xs">
+              <div class="dropdown">
+                <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Select Information
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dLabel">
+                  <a href="#" class="list-group-item">Friends & Family Test </a>
+                  <a href="#" class="list-group-item">Named GP for all Patients</a>
+                  <a href="#" class="list-group-item">Appointments</a>
+                  <a href="#" class="list-group-item">GP2GP</a>
+                  <a href="#" class="list-group-item">Telephone Advice</a>
+                  <a href="#" class="list-group-item">Home Visits</a>
+                  <a href="#" class="list-group-item">Antenatal Clinic</a>
+                  <a href="#" class="list-group-item">Stress Counselling Clinic</a>
+                  <a href="#" class="list-group-item">Practice Survey</a>
+                  <a href="#" class="list-group-item">Psychiatric Nurse</a>
+                  <a href="#" class="list-group-item">Physiotherapy Clinic</a>
+                  <a href="#" class="list-group-item">Registering</a>
+                  <a href="#" class="list-group-item">Prescriptions</a>
+                  <a href="#" class="list-group-item">Emergencies</a>
+                  <a href="#" class="list-group-item">Confidentiality</a>
+                  <a href="#" class="list-group-item">Zero Tolerance Policy</a>
+                  <a href="#" class="list-group-item">Complaints Procedure</a>
+                  <a href="#" class="list-group-item">Patient Information</a>
+                  <a href="#" class="list-group-item">Travel Vaccinations</a>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 hidden-xs">
+              <div class="list-group">
+                <a href="#" class="list-group-item">Friends & Family Test <span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
+                <a href="#" class="list-group-item">Named GP for all Patients<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
+                <a href="#" class="list-group-item">Appointments<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
+                <a href="#" class="list-group-item">GP2GP<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
+                <a href="#" class="list-group-item">Telephone Advice<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
+                <a href="#" class="list-group-item">Home Visits<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
+                <a href="#" class="list-group-item">Antenatal Clinic<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
+                <a href="#" class="list-group-item">Stress Counselling Clinic<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
+                <a href="#" class="list-group-item">Practice Survey<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
+                <a href="#" class="list-group-item">Psychiatric Nurse<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
+                <a href="#" class="list-group-item">Physiotherapy Clinic<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
+                <a href="#" class="list-group-item">Registering<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
+                <a href="#" class="list-group-item">Prescriptions<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
+                <a href="#" class="list-group-item">Emergencies<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
+                <a href="#" class="list-group-item">Confidentiality<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
+                <a href="#" class="list-group-item">Zero Tolerance Policy<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
+                <a href="#" class="list-group-item">Complaints Procedure<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
+                <a href="#" class="list-group-item">Patient Information<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
+                <a href="#" class="list-group-item">Travel Vaccinations<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="panel panel-default">
+                <div class="panel-body">
+                  <p>Kingsfold Medical Centre is situated in Penwortham, Preston, Lancashire which forms part of the Chorley & South Ribble Clinical Commissioning Group.</p>
+                  <p>The Practice is currently run by Dr Gautam Chikhalikar and Dr Gokul. Our practice manager is Sangeeta Chikhalikar. We have one practice nurse and eight reception/administrative staff in addition to a full primary health care team.</p> 
+                  <p>The premises were purpose-built in 1985, and since then have benefited from a further two extensions to the property. The additional facilities provide excellent amenities for our Physiotherapy, Counselling, Antenatal and Diabetic clinics, as well as a theatre for a variety of surgical procedures. The building is well appointed, with adequate parking facilities for both patients and staff, and provides easy access for disabled patients. The practice is fully computerised and has Internet and NHS Net facilities.</p> 
+                </div>
+              </div>
+            </div>
+          </div>  
         </div>
-        <div class="col-md-3 hidden-xs">
-          <div class="list-group">
-            <a href="#" class="list-group-item">Friends & Family Test <span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
-            <a href="#" class="list-group-item">Named GP for all Patients<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
-            <a href="#" class="list-group-item">Appointments<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
-            <a href="#" class="list-group-item">GP2GP<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
-            <a href="#" class="list-group-item">Telephone Advice<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
-            <a href="#" class="list-group-item">Home Visits<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
-            <a href="#" class="list-group-item">Antenatal Clinic<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
-            <a href="#" class="list-group-item">Stress Counselling Clinic<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
-            <a href="#" class="list-group-item">Practice Survey<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
-            <a href="#" class="list-group-item">Psychiatric Nurse<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
-            <a href="#" class="list-group-item">Physiotherapy Clinic<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
-            <a href="#" class="list-group-item">Registering<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
-            <a href="#" class="list-group-item">Prescriptions<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
-            <a href="#" class="list-group-item">Emergencies<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
-            <a href="#" class="list-group-item">Confidentiality<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
-            <a href="#" class="list-group-item">Zero Tolerance Policy<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
-            <a href="#" class="list-group-item">Complaints Procedure<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
-            <a href="#" class="list-group-item">Patient Information<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
-            <a href="#" class="list-group-item">Travel Vaccinations<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
-          </div>
-        </div>
-        <div class="col-md-9">
-          <div class="panel panel-default">
-            <div class="panel-body">
-              <p>Kingsfold Medical Centre is situated in Penwortham, Preston, Lancashire which forms part of the Chorley & South Ribble Clinical Commissioning Group.</p>
-              <p>The Practice is currently run by Dr Gautam Chikhalikar and Dr Gokul. Our practice manager is Sangeeta Chikhalikar. We have one practice nurse and eight reception/administrative staff in addition to a full primary health care team.</p> 
-              <p>The premises were purpose-built in 1985, and since then have benefited from a further two extensions to the property. The additional facilities provide excellent amenities for our Physiotherapy, Counselling, Antenatal and Diabetic clinics, as well as a theatre for a variety of surgical procedures. The building is well appointed, with adequate parking facilities for both patients and staff, and provides easy access for disabled patients. The practice is fully computerised and has Internet and NHS Net facilities.</p> 
+        <footer class="container-fluid footer">
+          <div class="row">
+            <div class="col-md-6">
+              <span>© Neighbourhood Direct Ltd 2016</span>
+              <span>
+                <ul class="nav nav-pills">
+                  <li role="presentation"><a href="#">Site Map</a></li>
+                  <li role="presentation"><a href="#">Sign In</a></li>
+                  <li role="presentation"><a href="#">Disclaimer</a></li>
+                  <li role="presentation"><a href="#">Website Accessibility</a></li>
+                </ul>
+              </span>  
+              <span>Practice Website supplied by <a href="#">Oldroyd Publishing Group</a></span>
+            </div>
+            <div class="col-md-6 right-col">
+              <span>Woodcroft Close, Penwortham, Preston, Lancashire, PR1 9BX</span>
+              <span>Telephone 01772 746492</span>
             </div>
           </div>
-        </div>
-      </div>  
-    </div>
-    <footer class="container-fluid footer">
-      <div class="row">
-        <div class="col-md-6">
-          <span>© Neighbourhood Direct Ltd 2016</span>
-          <span>
-            <ul class="nav nav-pills">
-              <li role="presentation"><a href="#">Site Map</a></li>
-              <li role="presentation"><a href="#">Sign In</a></li>
-              <li role="presentation"><a href="#">Disclaimer</a></li>
-              <li role="presentation"><a href="#">Website Accessibility</a></li>
-            </ul>
-          </span>  
-          <span>Practice Website supplied by <a href="#">Oldroyd Publishing Group</a></span>
-        </div>
-        <div class="col-md-6 right-col">
-          <span>Woodcroft Close, Penwortham, Preston, Lancashire, PR1 9BX</span>
-          <span>Telephone 01772 746492</span>
-        </div>
-      </div>
-    </footer>
+        </footer>
+    </div>    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/angular/angular.min.js"></script>
     <script src="assets/js/bootstrap/bootstrap.min.js"></script>
     <script type="text/javascript">
       // $('.carousel').carousel();
