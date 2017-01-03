@@ -17,16 +17,15 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link href="app/assets/css/site.css" rel="stylesheet">
-    <base href="/KMC/">
   </head>
   <body>
     <div id="wrapper">
-        <div class="container-fluid header">
-          <header class="container">
+        <div class="navbar-wrapper">
+          <header class="container-fluid">
             <h1>Kingsfold Medical Centre</h1>
           </header>
           <nav class="navbar navbar-default">
-            <div class="container">
+            <div class="container-fluid">
               <!-- Brand and toggle get grouped for better mobile display -->
               <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -116,7 +115,7 @@
             <span class="sr-only">Next</span>
           </a> -->
         </div>
-        <div class="container appointment">
+        <div class="container-fluid appointment">
           <div class="row">
             <div class="col-md-4">
               <a href="#">
@@ -141,7 +140,7 @@
             </div>
           </div>  
         </div>
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
             <div class="visible-xs">
               <div class="dropdown">
@@ -175,7 +174,7 @@
             <div class="col-md-3 hidden-xs">
               <div class="list-group">
                 <a href="#" class="list-group-item">Friends & Family Test <span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
-                <a href="#" class="list-group-item">Named GP for all Patients<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
+                <a ng-href="/namedgp" class="list-group-item">Named GP for all Patients<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
                 <a href="#" class="list-group-item">Appointments<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
                 <a href="#" class="list-group-item">GP2GP<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
                 <a href="#" class="list-group-item">Telephone Advice<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
@@ -195,9 +194,7 @@
                 <a href="#" class="list-group-item">Travel Vaccinations<span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
               </div>
             </div>
-            <div class="col-md-9" ui-view>
-              
-            </div>
+            <div class="col-md-9" ui-view></div>
           </div>  
         </div>
         <footer class="container-fluid footer">
