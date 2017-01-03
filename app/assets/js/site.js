@@ -1,4 +1,5 @@
-var kmcApp = {
+var kmcModule = {},
+	kmcApp = {
 	keyinformation:[
 		{
 			'name':'Friends & Family Test',
