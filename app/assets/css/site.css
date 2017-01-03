@@ -1,5 +1,6 @@
 
-      header{height: 100px; background: #dad5eb;/*border-top:5px solid #6240aa;
+.header {background: #dad5eb;padding:0;}	
+      header{height: 100px; /*border-top:5px solid #6240aa;
       background: #c0b1d9;  For browsers that do not support gradients */
 	    /* background: -webkit-linear-gradient(#c0b1d9, #785bb7); For Safari 5.1 to 6.0 */
 	    /*background: -o-linear-gradient(#c0b1d9, #785bb7);  For Opera 11.1 to 12.0 */
