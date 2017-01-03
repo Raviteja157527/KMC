@@ -10,7 +10,7 @@
 			url:'/home',
 			templateUrl:'app/modules/home/home.html'
 		});
-		
+		$locationProvider.html5Mode(true);
 	}])
 	.run(function(){
 		
