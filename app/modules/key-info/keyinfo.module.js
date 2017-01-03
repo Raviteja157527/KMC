@@ -1,7 +1,7 @@
 (function(){
 	'use strict';
-	kmcKeyinfoModule= angular.module('kmcKeyinfoModule',[]);
-	kmcKeyinfoModule.config(['$windowProvider', '$stateProvider', '$urlRouterProvider', '$locationProvider','$httpProvider',
+	kmcModule = angular.module('kmcKeyinfoModule',[]);
+	kmcModule.config(['$windowProvider', '$stateProvider', '$urlRouterProvider', '$locationProvider','$httpProvider',
 		 function($windowProvider, $stateProvider, $urlRouterProvider, $locationProvider,$httpProvider){
 		 	$stateProvider
 		 	.state('Named-GP',{
