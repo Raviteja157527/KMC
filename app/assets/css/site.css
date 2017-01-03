@@ -116,6 +116,7 @@
       letter-spacing: -1px;
     }
 
+.appointment{margin-top:20px;}
     .appointment .thumbnail{color:#fff;background: #785bb7;text-align: center;padding-top: 20px;padding-bottom: 20px;}
     .appointment a{text-decoration: none;}
     .appointment a:hover{color: #fff;}
