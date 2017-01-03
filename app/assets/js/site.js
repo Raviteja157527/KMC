@@ -1,4 +1,5 @@
 var kmcModule = {},
+    kmcKeyinfoModule = {},
 	kmcApp = {
 	keyinformation:[
 		{
