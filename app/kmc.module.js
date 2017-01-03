@@ -1,7 +1,7 @@
 (function(){
 	'use strict';
 
-	kmcModule = angular.module('kmcModule',['ui.router']);
+	kmcModule = angular.module('kmcModule',['ui.router','kmcKeyinfoModule']);
 	kmcModule.config(['$windowProvider', '$stateProvider', '$urlRouterProvider', '$locationProvider','$httpProvider',
 			  function($windowProvider, $stateProvider, $urlRouterProvider, $locationProvider,$httpProvider){
 		$urlRouterProvider.otherwise('/home');
